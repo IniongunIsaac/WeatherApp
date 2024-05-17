@@ -10,7 +10,7 @@ Weather Data is gotten from [Open Weather API](http://openweathermap.org/current
 * MVVM
 * Xcode 15
 
-## Dependencies
+## Dependencies(managed via SPM)
 
 * Loading Button => [MHLoadingButton](https://github.com/twho/loading-buttons-ios.git)
 * Static Assets => [Rswift](https://github.com/mac-cain13/R.swift)
