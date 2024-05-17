@@ -55,6 +55,7 @@
 		14800B052BF7AA0800E4FFE8 /* MockCurrentWeatherRemoteDatasourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14800B042BF7AA0800E4FFE8 /* MockCurrentWeatherRemoteDatasourceProtocol.swift */; };
 		14800B072BF7AAB100E4FFE8 /* MockCurrentWeatherViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14800B062BF7AAB100E4FFE8 /* MockCurrentWeatherViewProtocol.swift */; };
 		14F273052BF7B99B0057AB81 /* Stubs+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F273042BF7B99B0057AB81 /* Stubs+.swift */; };
+		14F273082BF7BF9A0057AB81 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 14F273072BF7BF9A0057AB81 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,9 @@
 		14800B042BF7AA0800E4FFE8 /* MockCurrentWeatherRemoteDatasourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCurrentWeatherRemoteDatasourceProtocol.swift; sourceTree = "<group>"; };
 		14800B062BF7AAB100E4FFE8 /* MockCurrentWeatherViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCurrentWeatherViewProtocol.swift; sourceTree = "<group>"; };
 		14F273042BF7B99B0057AB81 /* Stubs+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stubs+.swift"; sourceTree = "<group>"; };
+		14F273072BF7BF9A0057AB81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		14F2730B2BF7C1060057AB81 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		14F2730C2BF7C1060057AB81 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		14800A5B2BF7128F00E4FFE8 = {
 			isa = PBXGroup;
 			children = (
+				14F273072BF7BF9A0057AB81 /* README.md */,
 				14800A662BF7128F00E4FFE8 /* WeatherApp */,
 				14800A7D2BF7129000E4FFE8 /* WeatherAppTests */,
 				14800A872BF7129000E4FFE8 /* WeatherAppUITests */,
@@ -177,6 +182,7 @@
 		14800A662BF7128F00E4FFE8 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				14F2730A2BF7C0510057AB81 /* Screenshots */,
 				14800ABB2BF7593B00E4FFE8 /* DI */,
 				14800AA02BF74C4600E4FFE8 /* Utils */,
 				14800A9D2BF74C1100E4FFE8 /* Datasources */,
@@ -407,6 +413,15 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		14F2730A2BF7C0510057AB81 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				14F2730B2BF7C1060057AB81 /* 1.png */,
+				14F2730C2BF7C1060057AB81 /* 2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -536,6 +551,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F273082BF7BF9A0057AB81 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
