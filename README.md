@@ -1,6 +1,7 @@
 #  iOS WeatherApp
 
-An iOS weather app that allows users to fetch current weather data for a city of their choice and then see the details on another screen. 
+An iOS weather app that allows users to fetch current weather data for a city of their choice and then see the details on another screen.
+Weather Data is gotten from [Open Weather API](http://openweathermap.org/current)
 
 ## Technology Stack & Tools
 
